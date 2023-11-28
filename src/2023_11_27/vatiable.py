@@ -17,6 +17,8 @@ print("c=",c)
 print(type(c))
 
 # 논리형 변수
+b1 = True # 첫 글자 대문자 주의
+b2 = False
 
 # 문자형 변수
 s1= "파이썬"
