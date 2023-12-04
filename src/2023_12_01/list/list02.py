@@ -1,4 +1,5 @@
 # 리스트의 인덱싱
+# 인덱싱 : 특정 인덱스 번호로 원소를 추출
 
 s = ['자바','파이썬','오라클','스프링','텐스플로우']
 
@@ -16,7 +17,7 @@ listdata = [1, 2, 'a', 'b', 'c', [4, 5, 6]]
 data1 = listdata[1]
 data2 = listdata[3]
 data3 = listdata[5]
-data4 = listdata[5][1]
+data4 = listdata[5][1] # 인덱스 5번이 리스트[4,5,6] 원소가 들어가 있으니까 괄호를 한 번 더 써서 출력
 data5 = listdata[-1]
 
 print('data1:', data1)          # 2 출력
