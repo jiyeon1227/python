@@ -7,15 +7,15 @@ names = {'Mary':10999, 'Sams':2111, 'Aimy':9778, 'Tom':20245 , 'Michale':27115,
          'Bob':5887, 'Kelly':7855}
 
 #----------------------------------------------------------------------
-# 딕셔너리의 key를 리턴하는 함수
+# 딕셔너리의 key를 리턴하는 함수 -> key값으로 오름차순, 내림차순
 def f1(x):
     return x[0]
 
-# 딕셔너리의 value를 리턴하는 함수
+# 딕셔너리의 value를 리턴하는 함수 -> value값으로 오름차순, 내림차순
 def f2(x):
     return x[1]
 
-# 1. 딕셔너리의 key(아기이름)를 이용해서 오름차순
+# 1. 딕셔너리의 key(아기이름)를 이용해서 오름차순 -> 기본값
 result1 = sorted(names)
 print('result1:', result1)              # ['Aimy', 'Bob', 'Kelly', 'Mary', 'Michale', 'Sams', 'Tom']
 
@@ -36,3 +36,5 @@ print('result5:', result5)              # [('Sams', 2111), ('Bob', 5887), ('Kell
 # 4. 딕셔너리의 value(출생아수)를 이용해서 내림차순
 result6 = sorted(names.items(), reverse=True , key=f2)
 print('result6:', result6)              # [('Michale', 27115), ('Tom', 20245), ('Mary', 10999), ('Aimy', 9778), ('Kelly', 7855)
+
+# 람다 : 이름이 없는 한줗짜리 함수 -> 공부해야함 !!
