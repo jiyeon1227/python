@@ -12,7 +12,7 @@ class A:                                # 부모 클래스
 class B(A):                             # 자식 클래스
     def __init__(self):                 # 기본 생성자
         print('자식 생성자')
-        super().__init__()              # 부모 클래스의 생성자 호출
+        super().__init__()              # 부모 클래스의 생성자 호출 -> 자식 클래스에 기본 생성자가 있기 때문에 자동으로 호출 못함
         print(self.message)
 
 if __name__=='__main__':

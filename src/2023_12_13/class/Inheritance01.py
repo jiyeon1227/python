@@ -1,6 +1,8 @@
 # 상속(Inheritance)
 # : 부모 클래스의 메소드는 상속된다.
 
+# 파이썬은 다중 상속이 가능함 (문제가 있을 확률이 올라감)
+
 class Base:                     # 부모 클래스, 기반 클래스
     def base_method(self):
         print('부모 메소드')
