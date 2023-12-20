@@ -1,0 +1,16 @@
+과제. 다음과 같은 내용의 파일 abc.txt 가 있다.
+        AAA
+        BBB
+        CCC
+        DDD
+        EEE
+
+       이 파일의 내용을 읽어와서 다음과 같이 역순으로 바꾸어 result.txt로 저장 하세요?
+       EEE
+       DDD
+       CCC
+       BBB
+       AAA
+
+
+       giduck23@naver.com 제출
