@@ -1,4 +1,4 @@
-import numpy as np
+import numpy as np 
 
 data1 = [0, 1, 2, 3, 4, 5]
 a1 = np.array(data1)
